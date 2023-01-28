@@ -20,7 +20,7 @@ public final class Constants {
     public final static int conID = 59;
     // public static int[] driveMotorIDS = { 58, 45, 50, 51 };
     
-    public final static int l1ID = 58;
+    public final static int l1ID = 60;
     public final static int l2ID = 45;
     public final static int r1ID = 50;
     public final static int r2ID = 51;

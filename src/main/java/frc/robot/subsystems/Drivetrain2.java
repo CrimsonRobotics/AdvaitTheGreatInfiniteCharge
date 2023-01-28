@@ -45,7 +45,7 @@ public class Drivetrain2 extends SubsystemBase {
     shifterLeft = new DoubleSolenoid(PneumaticsModuleType.CTREPCM, Constants.shiftyLeft[0], Constants.shiftyLeft[1]);
     shifterRight = new DoubleSolenoid(PneumaticsModuleType.CTREPCM, Constants.shiftyRight[0], Constants.shiftyRight[1]);
 
-    leftMotor1.setInverted(false);
+    leftMotor1.setInverted(true);
     leftMotor2.setInverted(false);
     rightMotor1.setInverted(false);
     rightMotor2.setInverted(true);
